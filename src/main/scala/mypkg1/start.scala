@@ -1,10 +1,12 @@
-/* SimpleApp.scala */
+package mypkg1
+
+/* start.scala */
 import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._
 import org.apache.spark.SparkConf
 import org.apache.spark.sql
 
-object SimpleApp {
+object start {
   def main(args: Array[String]) {
     /* Program Starts*/
     val logFile = "D:\\Technical_work_space\\Data_folder\\1000_Record_Sample.json" // Should be some file on your system
