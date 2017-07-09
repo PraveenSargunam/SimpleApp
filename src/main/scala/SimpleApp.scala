@@ -6,6 +6,7 @@ import org.apache.spark.sql
 
 object SimpleApp {
   def main(args: Array[String]) {
+    /* Program Starts*/
     val logFile = "D:\\Technical_work_space\\Data_folder\\1000_Record_Sample.json" // Should be some file on your system
     val conf = new SparkConf().setAppName("Simple Application").setMaster("local[*]")
     val sc = new SparkContext(conf)
