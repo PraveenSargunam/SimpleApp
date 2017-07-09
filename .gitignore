@@ -11,3 +11,14 @@ project/plugins/project/
 .history
 .cache
 .lib/
+
+
+# Scala-IDE specific
+# git ignore ref Link : https://github.com/typesafehub/sbteclipse/issues/271
+bin/
+.scala_dependencies
+.classpath
+.project
+.settings/
+.cache-main
+.cache-tests
